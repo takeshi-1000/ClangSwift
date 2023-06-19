@@ -7,7 +7,7 @@ let package = Package(
       .library(name: "Clang", targets: ["Clang"])
     ],
     dependencies: [
-      .package(url: "https://github.com/trill-lang/cclang", from: "0.0.1")
+      .package(url: "https://github.com/takeshi-1000/cclang", .branch("feature/tmp_ver"))
     ],
     targets: [
       .target(name: "Clang"),
